@@ -75,8 +75,8 @@ function readHeight(data){
   height = data.val();
   console.log(height.x);
   //assign the x and y value of height to the respective x and y position of balloon
-  Balloon.x = height.x;
-  Balloon.y = height.y;
+  balloon.x = height.x;
+  balloon.y = height.y;
  }
 
 function showError(){
